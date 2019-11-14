@@ -1,0 +1,13 @@
+node_modules
+dist
+package.json.bak*
+.idea
+.tmp
+scripts-dist
+coverage
+workspace.xml
+cypress/**/*.mp4
+cypress/**/*.png
+.Trash-0
+.DS_Store
+.awcache

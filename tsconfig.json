@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "allowJs": false,
+    "baseUrl": "./src",
+    "noUnusedLocals": true,
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "typeRoots": [ "./src/app/typings", "./node_modules/@types"]
+  }
+}
