@@ -28,20 +28,4 @@ hr {
     display: flex;
     flex-direction: column;
   }
-
-  // This is a fix for the unexpected scrolled bar caused by responsive-container of recharts
-  // It's actually caused by the react-resize-detector used by responsive-container
-  // The fix is just enforce the divs created by react-resize-detector to `overflow: hidden`.
-  // link <https://github.com/recharts/recharts/blob/master/src/component/ResponsiveContainer.js#L136>
-  // I also submitted an issue https://github.com/maslianok/react-resize-detector/issues/6
-  .recharts-responsive-container {
-    > *:last-child {
-      &, * {
-        overflow: hidden !important;
-      }
-    }
-  }
-
-  // google reCAPTCHA
-  .grecaptcha-badge { display: none !important; }
 }
