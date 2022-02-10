@@ -47,7 +47,7 @@
     "less": "^3.8.1",
     "less-loader": "^4.0.5",
     "less-plugin-rewrite-import": "^0.1.1",
-    "node-sass": "^4.9.4",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "source-map-support": "^0.5.9",
